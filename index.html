@@ -4,6 +4,7 @@
         <title>My Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Load Bootstrap CSS from CDN -->
+        <link rel="icon" type="image/x-icon" href="./img/logo1.jpg">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +17,9 @@
 <!--Start of NavBar -->  
 <section class="sticky-top text d-flex justify-content-center">
 <div class="text-center ">  
-          <nav class="main-nav navbar navbar-expand-lg navbar-dark bg-dark">
+          <nav class="main-nav navbar-expand-lg fixed-top navbar-dark navbar-custom">
         <div class="container-fluid"> 
         
-    
-<!-- Start of NavBar Logo  -->
-          <a class="navbar-brand" href="https://www.linkedin.com/in/miguel-angel-macias-flores" style="max-width: 4%;">
-            <img src="https://i.ibb.co/qkF9Qqb/mmacias.jpg" alt="" class="img-fluid rounded-circle">
-          </a>   
-<!--End of NavBar Logo-->
-
 <!-- Start of NavBar Items -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,6 +27,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center stic">
 <!-- End of NavBar Items  -->
+<!-- Start of NavBar Logo  -->
+<a class="navbar-brand" href="https://www.linkedin.com/in/miguel-angel-macias-flores" style="max-width: 4%;">
+  <img src="https://i.ibb.co/qkF9Qqb/mmacias.jpg" width="250" height="250" alt="" class="img-fluid rounded-circle">
+</a>   
+<!--End of NavBar Logo-->
 <!-- Start of NavBar Links -->
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -63,7 +62,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#links">Useful Links</a>
+              <a class="nav-link" href="#socials">Socials</a>
             </li>
           </ul>
         </div>
@@ -71,6 +70,7 @@
 
 </section>
         <!-- End of NavBar Links -->
+     
    
 <!-- End of NavBar -->
           
@@ -203,6 +203,9 @@
         <div class="overlay">    
   </div>
   <div>
+    <br>
+    <br>
+    <br>
     <h1 class="heading-text text-primary">LinkedIn Kudos</h1>
               </div>
             </div>
@@ -422,37 +425,17 @@
   <!-- End of Contact Section -->   
   <!-- Bootstrap JS Files: Do not move -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/50e1a7270d.js" crossorigin="anonymous"></script>
+
   </body>
   
-<!-- Footer -->
+<!-- Footer
 <footer class="text-center text-lg-start bg-white text-muted">
 <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 <!-- Left -->
     <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <div>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-github"></i>
-      </a>
-    </div> 
-   </section>
+     
 <!-- Start of Music Playlist -->
    <section class="music" id="music">
     <div class="container">
@@ -468,95 +451,211 @@
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6AuL3jIItVt97dUsalo9Dy?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <!-- Section: Social media -->
+<section class="music" id="socials">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-12  mt-5 mb-5"  >    
+    <h1 class="heading-text" >Socials</h1>
+<span>Get connected with us on social networks:</span>
+</div>
+<div>
+  
+  <a href="https://maciam21.github.io/fakebook/" class="me-4 link-secondary text-decoration-none">
+    <i class="fa-brands fa-square-facebook fa-beat-fade">akeBook</i>
+    <a href="https://maciam21.github.io/fakebook/" class="me-4 link-secondary text-decoration-none">
+      <i class="fa-brands fa-square-github fa-flip">GitHub</i>
+    </a>
+  </a>
+  <a href="mailto:mmacias@bitwiseindustries.com?subject = Feedback&body = Message" class="me-4 link-secondary text-decoration-none">
+    <i class="fa-brands fa-google fa-spin">Mail</i>
+  </a>
+  <a href="https://www.instagram.com/paweewee_1/" class="me-4 link-secondary text-decoration-none">
+    <i class="fa-brands fa-instagram fa-shake">InstaJam</i>
+  </a>
+  <a href="https://www.linkedin.com/in/miguel-angel-macias-flores/" class="me-4 link-secondary text-decoration-none">
+    <i class="fa-brands fa-linkedin fa-bounce"> bLinkeIn</i>
+  </a>
+  <a href="https://www.tiktok.com/@rh4cp" class="me-4 link-secondary text-decoration-none">
+  <i class="fa-brands fa-tiktok fa-beat"> ClipTock</i>
+   
+  </a>
+</div> 
+<br>
+<br>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/BitwiseInd" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/bitwiseind" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Youtube -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/BitwiseIndustries" role="button"
+       <i class="fa-brands fa-youtube"></i>
+       <i class="fa-brands fa-youtube"></i>
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/company/bitwise-industries/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Bitwise -->
+      <!-- <a class="btn btn-outline-light btn-floating m-1" href="https://bitwiseindustries.com/" role="button"
+      ><i class="fa-solid fa-b"></i
+      ><i class="fa-solid fa-w"></i
+      </a> -->
     </section>
-<!-- Section: Links  -->
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
     <section class="">
-    <div class="container text-center text-md-start mt-5 bg-dark text-center text-white">
-<!-- Grid row -->
-    <div class="row mt-3">
-<!-- Grid column -->
-      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-        <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3 text-secondary"></i>Miguel "The Assist" Macias Portfolio 
-        </h6>
-          <p>
-            Thank you for taking the time to visit my portfolio!
-          </p>
-      </div>
-<!-- Grid column -->
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.450672531644!2d-119.78084032227639!3d36.73575217132651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945fb2c7d60e87%3A0x9b82a7350ac60ce0!2sBitwise%20%7C%2041!5e0!3m2!1sen!2sus!4v1681870269092!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!--Grid column-->
 
-<!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-<!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Social Medias
-          </h6>
-            <p>
-              <a href="https://www.linkedin.com/in/miguel-angel-macias-flores/" class="text-reset">bLinkedIn</a>
-            </p>
-            <p>
-              <a href="https://open.spotify.com/user/fab6gphf7zm06ng62ktsg0wtd" class="text-reset">Spotifly</a>
-            </p>
-            <p>
-              <a href="https://www.instagram.com/paweewee_1/" class="text-reset">InstaChat</a>
-            </p>
-            <p>
-              <a href="https://www.tiktok.com/@rh4cp" class="text-reset">Cliptok</a>
-            </p>
-            <p>
-              <a href="https://maciam21.github.io/fakebook/" class="text-reset">Fakebook</a>
-            </p>
-      </div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"links" id="links" ">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="https://bitwiseindustries.com/services/technology-consulting/contact/" class="text-reset">Services</a>
-          </p>
-          <p>
-            <a href="https://bitwiseindustries.com/services/technology-consulting/contact" class="text-reset">Contact</a>
-          </p>
        
-          <p>
-            <a href="https://bitwiseindustries.com/services/workforce-training/apprenticeships/" class="text-reset">Apprenticeships</a>
-          
-          </p>
-         
-          <p>
-            <a href="https://bitwiseindustries.com/stories/" class="text-reset">Bitwise Stories</a>
-          </p>
-           <p>
-            <a href="https://bitwiseindustries.com/" class="text-reset">Bitwise Industries</a>
-          </p>
+          <!--Grid column-->
         </div>
-<!-- Grid column -->
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
 
-<!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-<!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3 text-secondary"></i>2721 Ventura St, Fresno, CA 93721</p>
-          <p>
-            <i class="fas fa-envelope me-3 text-secondary"></i>
-            mmacias@bitwiseindustries.com
-          </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> 559-216-0925 EXT 1308</p>
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Thank you for taking the time to visit my portfolio!
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Social Medias</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.linkedin.com/in/miguel-angel-macias-flores/" class="text-reset">bLinkedIn</a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/user/fab6gphf7zm06ng62ktsg0wtd" class="text-reset">Spotifly</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/paweewee_1/" class="text-reset">InstaChat</a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@rh4cp" class="text-reset">Cliptok</a>
+            </li>
+          </ul>
         </div>
-  </section>
-<!-- Copyright -->
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Useful links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://bitwiseindustries.com/services/technology-consulting/contact/" class="text-reset">Services</a>
+            </li>
+            <li>
+              <a href="https://bitwiseindustries.com/services/technology-consulting/contact" class="text-reset">Contact</a>
+            </li>
+            <li>
+              <a href="https://bitwiseindustries.com/services/workforce-training/apprenticeships/" class="text-reset">Apprenticeships</a>
+            </li>
+            <li>
+              <a href="https://bitwiseindustries.com/stories/" class="text-reset">Bitwise Stories</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">2721 Ventura St, Fresno, CA 93721</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">mmacias@bitwiseindustries.com</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">559-216-0925 EXT 1308</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Fave Jams</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://open.spotify.com/playlist/54DVSKT0nTGjUqHSw7tIYF?go=1&sp_cid=f1afea5f79f8c41b524a13107c923f73&utm_source=embed_player_p&utm_medium=desktop&nd=1" class="text-white">2023</a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/playlist/37i9dQZF1DX10zKzsJ2jva" class="text-white">Viva Latino</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=-brKVyNwn6s" class="text-white">Angel Baby</a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/playlist/3OIY9CNdMZtd5ZoIJrsSos?go=1&sp_cid=f1afea5f79f8c41b524a13107c923f73&utm_source=embed_player_p&utm_medium=desktop&nd=1" class="text-white">Swagger Boost</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(25, 4, 4, 0.164);">
+  
+  
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
       <div class="text-center p-3">
         © 2023 Copyright: Mr. "Assist" Mac-Flo
         <a class="text-white" href="https://www.linkedin.com/in/miguel-angel-macias-flores/"></a>
       </div>
-      <div  class=" row d-flex justify-content-center align-content-center "  >  <a href="https://maciam21.github.io/My-Portfolio-Mobile-Friendly-/" class="btn btn-danger col-1">Back to Top</a>  
-      </div>
- </footer>
+         
+    <div class="d-flex fixed-bottom">   
+      <button class="btn btn-danger">
+        <a class="nav-link active text-white" href="#home">Top</a>
+      </button>
+    </div>
+ </footer> 
 </html>
